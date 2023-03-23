@@ -1,0 +1,76 @@
+/* lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&family=Lato:wght@300;400;700&display=swap');
+
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Jost', sans-serif; */
+
+.font-Lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.font-Jost {
+  font-family: 'Jost', sans-serif;
+}
+
+body {
+  line-height: 24px;
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
+a {
+  color: #142B67 !important;
+}
+
+.SpecerT {
+  padding-top: 70px;
+}
+
+.accordion-button::after {
+  background-image: url(./Asets/image/Group\ 317.svg) !important;
+  width: 55px !important;
+  height: 55px !important;
+  background-size: 55px !important;
+}
+
+.accordion-button {
+  border-bottom: 2px solid #000 !important;
+}
+
+.accordion-item {
+  border: none !important;
+}
+
+.form-check-input {
+  width: 40px !important;
+  height: 20px !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.accordion-button {
+  padding-top: 50px !important;
+  background-color: #fff !important;
+  color: none !important;
+  justify-content: space-evenly !important;
+  border: none !important;
+}
+
+.accordion-button .collapsed {
+  border: 1px solid #000 !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.form-check-input:checked {
+  background-color: red !important;
+  border: none !important;
+}
+
+.img-one {
+  box-shadow: -5px 5px 3px 1px rgba(176, 192, 216, 0.84);
+}

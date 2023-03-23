@@ -1,0 +1,18 @@
+
+.hover-img{
+    display: none;
+    opacity: 0;
+}
+.wraps-list{
+    transition: .5s;
+}
+.wraps-list:hover .hover-img{
+    display: block;
+    opacity: 1;
+}
+
+
+
+
+
+
